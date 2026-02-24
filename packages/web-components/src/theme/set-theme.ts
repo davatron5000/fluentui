@@ -4,7 +4,7 @@ import { uniqueId } from '@microsoft/fast-web-utilities';
 /**
  * Not using the `Theme` type from `@fluentui/tokens` package to allow custom
  * tokens to be added.
- * @internal
+ * @public
  */
 export type Theme = Record<string, string | number>;
 
